@@ -7,7 +7,7 @@ export default () => {
 	const { user } = useUser()
 
 	// const apiUrl = `http://localhost:3000/users/${user.id}/sessions`
-	const apiUrl = `http://aichat-backend-puce.vercel.app/users/${user.id}/sessions`
+	const apiUrl = `https://aichat-backend-puce.vercel.app/users/${user.id}/sessions`
 
 	const { data } = useSWRFetch(apiUrl) // 發送 GET 請求
 

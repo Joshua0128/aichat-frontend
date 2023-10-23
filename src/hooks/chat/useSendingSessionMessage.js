@@ -2,7 +2,7 @@ import useSWRPut from '../useSWRPut'
 
 export default (sessionId) => {
 	// const apiUrl = `https://api.projectszero.tech/session/${sessionId}/messages`;
-	const apiUrl = `http://aichat-backend-puce.vercel.app/session/${sessionId}/messages`
+	const apiUrl = `https://aichat-backend-puce.vercel.app/session/${sessionId}/messages`
 
 	const { data, trigger, isMutating } = useSWRPut(apiUrl) // 發送 PUT 請求
 

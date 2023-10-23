@@ -8,7 +8,7 @@ export default () => {
 	// console.log(user.id)
 
 	// const apiUrl = `https:aichat-backend-puce.vercel.app/session/${user.id}`
-	const apiUrl = `http://aichat-backend-puce.vercel.app/users/${user.id}/sessions`
+	const apiUrl = `https://aichat-backend-puce.vercel.app/users/${user.id}/sessions`
 
 	const { trigger } = useSWRPost(apiUrl) // 發送 POST 請求
 
